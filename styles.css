@@ -1,0 +1,162 @@
+* {
+    font-family: chalkduster, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    background-color: black;
+}
+/* Header */ 
+
+#header {
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-bottom: 10px;
+    height: 72px;
+    width: auto;
+    border-radius: 5%;
+}
+
+#header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: azure;
+    font-weight: 900;
+    font-size: large;
+}
+
+/* Intro Section */
+
+#intro-section {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px;
+    background-color: rgb(150, 25, 160);
+}
+
+#intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#brand-name {
+    color: black;
+    font-size: 64px;
+    text-align: center;
+}
+
+#brand-description {
+    color: black;
+    font-size: 24px;
+    margin: 24px 48px;
+}
+
+#shop-button {
+    font-size: 24px;
+    background-color: black;
+    color: azure;
+    padding: 8px;
+    width: fit-content;
+    border-radius: 10%;
+    border-color: black;
+}
+
+#animation {
+    margin: 16px;
+    border-radius: 5%;
+}
+
+/* Showcase Section */
+
+#showcase-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#showcase-title {
+    font-size: 36px;
+}
+
+#showcase {
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.showcase-item {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design {
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+/* Quote Section */
+
+#quote-section {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(150, 25, 160);
+    color: black;
+}
+
+#quote {
+    padding-top: 16px;
+    font-size: larger;
+    width: 600px;
+}
+
+/* Contact Section */
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    margin-bottom: 48px;;
+}
+
+#contact-heading {
+    font-size: 36px;
+}
+
+#contact-button {
+    font-size: 18px;
+    background-color: azure;
+    border-color: black;
+    border-radius: 15%;
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    border-top: azure solid;
+    margin-top: 8px;
+}
